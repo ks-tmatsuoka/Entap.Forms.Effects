@@ -69,6 +69,12 @@
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entap.Forms.Effects\Entap.Forms.Effects.csproj">
+      <Project>{C3FA3EDB-A529-4D2B-ABAF-07E1E54270BF}</Project>
+      <Name>Entap.Forms.Effects</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

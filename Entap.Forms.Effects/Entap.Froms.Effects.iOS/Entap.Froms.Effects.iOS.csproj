@@ -52,5 +52,11 @@
       <Version>4.8.0.1534</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entap.Forms.Effects\Entap.Forms.Effects.csproj">
+      <Project>{C3FA3EDB-A529-4D2B-ABAF-07E1E54270BF}</Project>
+      <Name>Entap.Forms.Effects</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
