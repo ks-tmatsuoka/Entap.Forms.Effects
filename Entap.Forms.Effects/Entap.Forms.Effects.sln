@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entap.Forms.Effects", "Entap.Forms.Effects\Entap.Forms.Effects.csproj", "{C3FA3EDB-A529-4D2B-ABAF-07E1E54270BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entap.Froms.Effects.iOS", "Entap.Froms.Effects.iOS\Entap.Froms.Effects.iOS.csproj", "{AC298F2C-1AF2-41C6-A8A4-7598DD954DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entap.Froms.Effects.Android", "Entap.Froms.Effects.Android\Entap.Froms.Effects.Android.csproj", "{A0E70324-D815-4F07-9B88-34CA51857B17}"
+EndProject
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "Entap.Forms.Effects.NuGet", "Entap.Forms.Effects.NuGet\Entap.Forms.Effects.NuGet.nuproj", "{85A7BCD8-64FE-4F4E-8168-6DB44546B9F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3FA3EDB-A529-4D2B-ABAF-07E1E54270BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FA3EDB-A529-4D2B-ABAF-07E1E54270BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FA3EDB-A529-4D2B-ABAF-07E1E54270BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FA3EDB-A529-4D2B-ABAF-07E1E54270BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC298F2C-1AF2-41C6-A8A4-7598DD954DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC298F2C-1AF2-41C6-A8A4-7598DD954DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC298F2C-1AF2-41C6-A8A4-7598DD954DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC298F2C-1AF2-41C6-A8A4-7598DD954DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E70324-D815-4F07-9B88-34CA51857B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E70324-D815-4F07-9B88-34CA51857B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E70324-D815-4F07-9B88-34CA51857B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E70324-D815-4F07-9B88-34CA51857B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A7BCD8-64FE-4F4E-8168-6DB44546B9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A7BCD8-64FE-4F4E-8168-6DB44546B9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A7BCD8-64FE-4F4E-8168-6DB44546B9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A7BCD8-64FE-4F4E-8168-6DB44546B9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
