@@ -8,6 +8,9 @@ using Xamarin.Forms.Platform.iOS;
 [assembly: ExportEffect(typeof(Entap.Froms.Effects.iOS.KeyboardOverlappingPlatformEffect), nameof(KeyboardOverlappingEffect))]
 namespace Entap.Froms.Effects.iOS
 {
+    /// <summary>
+    /// KeyboardOverlappingEffect Platform実装
+    /// </summary>
     public class KeyboardOverlappingPlatformEffect : PlatformEffect
     {
         // KeyboardObserver
