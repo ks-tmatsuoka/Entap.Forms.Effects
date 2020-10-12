@@ -11,4 +11,8 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1534" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Effects\" />
+    <Folder Include="Effects\Platform\" />
+  </ItemGroup>
 </Project>
