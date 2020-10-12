@@ -5,10 +5,10 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{85A7BCD8-64FE-4F4E-8168-6DB44546B9F2}</ProjectGuid>
-    <Description>Entap.Forms.Effects</Description>
+    <Description>Xamarin.Forms.Effect ライブラリ</Description>
     <PackageId>Entap.Forms.Effects</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
-    <Authors>tatsuyaiga</Authors>
+    <Authors>Entap</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <OutputType>Exe</OutputType>
@@ -16,6 +16,9 @@
     <UsePartialTypes>false</UsePartialTypes>
     <AssemblyName>Entap.Forms.Effects.NuGet</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Title>Entap.Forms.Effects</Title>
+    <Summary>Xamarin.Forms.Effect ライブラリ</Summary>
+    <PackageProjectUrl>https://github.com/entap/Entap.Forms.Effects</PackageProjectUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
