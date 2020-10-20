@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:iosEffects="clr-namespace:Entap.Forms.Effects.Platform.iOS;assembly=Entap.Forms.Effects"
+    x:Class="EffectsSample.KeyboardOverlappingPage">
+    <ContentPage.Content>
+        <Editor
+            BackgroundColor="LightGray"
+            Placeholder="入力してください"
+            iosEffects:KeyboardOverlappingEffect.BottomMargin="16"
+            iosEffects:KeyboardOverlappingEffect.IsEnabled="True"
+        />
+    </ContentPage.Content>
+</ContentPage>

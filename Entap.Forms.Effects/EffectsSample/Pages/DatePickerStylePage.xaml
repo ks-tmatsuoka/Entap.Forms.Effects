@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:iosEffects="clr-namespace:Entap.Forms.Effects.Platform.iOS;assembly=Entap.Forms.Effects"
+    x:Class="EffectsSample.DatePickerStylePage">
+    <StackLayout
+        Padding="16"
+    >
+        <Label
+            Margin="0, 16, 0, 0"
+            Text="Automatic"
+        />
+        <DatePicker
+            iosEffects:DatePickerStyleEffect.DatePickerStyle="Automatic"
+        />
+
+        <Label
+            Margin="0, 16, 0, 0"
+            Text="Compact"
+        />
+        <DatePicker
+            iosEffects:DatePickerStyleEffect.DatePickerStyle="Compact"
+        />
+
+        <Label
+            Margin="0, 16, 0, 0"
+            Text="Inline"
+        />
+        <DatePicker
+            iosEffects:DatePickerStyleEffect.DatePickerStyle="Inline"
+        />
+
+        <Label
+            Margin="0, 16, 0, 0"
+            Text="Wheels"
+        />
+        <DatePicker
+            iosEffects:DatePickerStyleEffect.DatePickerStyle="Wheels"
+        />
+    </StackLayout>
+</ContentPage>
