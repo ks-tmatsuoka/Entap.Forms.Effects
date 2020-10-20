@@ -17,5 +17,9 @@
             Text="iOS:KeyboardOverlappingEffect"
         />
 
+        <Button
+            x:Name="paddingButton"
+            Text="Android:PaddingEffect"
+        />
     </StackLayout>
 </ContentPage>

@@ -16,6 +16,7 @@ namespace EffectsSample
 
             datePickerStyleButton.Clicked += async (sender, e) => await PushPageAsync(new DatePickerStylePage());
             keyboardOverlappingButton.Clicked += async (sender, e) => await PushPageAsync(new KeyboardOverlappingPage());
+            paddingButton.Clicked += async (sender, e) => await PushPageAsync(new PaddingPage());
         }
 
         Task PushPageAsync(Page page)

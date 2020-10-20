@@ -14,5 +14,6 @@
   <ItemGroup>
     <Folder Include="Effects\" />
     <Folder Include="Effects\Platform\" />
+    <Folder Include="Effects\Platform\Android\" />
   </ItemGroup>
 </Project>

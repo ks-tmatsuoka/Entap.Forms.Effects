@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:droidEffects="clr-namespace:Entap.Forms.Effects.Platform.Android;assembly=Entap.Forms.Effects"
+    x:Class="EffectsSample.PaddingPage">
+    <StackLayout
+        Padding="16"
+    >
+        <Label
+            Text="Entry Default"
+        />
+        <Entry
+            BackgroundColor="Yellow"
+            Text="123"
+        />
+
+        <Label
+            Margin="0, 16, 0, 0"
+            Text="Entry Padding 20,0"
+        />
+        <Entry
+            droidEffects:PaddingEffect.Padding="20, 0"
+            Text="123"
+            BackgroundColor="Yellow"
+        />
+
+        <Label
+            Margin="0, 16, 0, 0"
+            Text="Picker Default"
+        />
+        <Picker
+            BackgroundColor="Yellow"
+        />
+
+        <Label
+            Margin="0, 16, 0, 0"
+            Text="Picker Padding:0"
+        />
+        <Picker
+            droidEffects:PaddingEffect.Padding="0"
+            BackgroundColor="Yellow"
+        />
+    </StackLayout>
+</ContentPage>

@@ -7,7 +7,7 @@
     <ProjectGuid>{85A7BCD8-64FE-4F4E-8168-6DB44546B9F2}</ProjectGuid>
     <Description>Xamarin.Forms.Effect ライブラリ</Description>
     <PackageId>Entap.Forms.Effects</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>Entap</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
