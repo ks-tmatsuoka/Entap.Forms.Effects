@@ -19,6 +19,7 @@
     <Title>Entap.Forms.Effects</Title>
     <Summary>Xamarin.Forms.Effect ライブラリ</Summary>
     <PackageProjectUrl>https://github.com/entap/Entap.Forms.Effects</PackageProjectUrl>
+    <PackageReleaseNotes>Android:PaddingEffect追加</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
