@@ -20,7 +20,4 @@
   <ItemGroup>
     <Folder Include="Pages\" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="Pages\KeyboardOverlappingPage.xaml.cs" />
-  </ItemGroup>
 </Project>
