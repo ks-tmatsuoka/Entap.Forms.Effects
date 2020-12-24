@@ -7,7 +7,7 @@
     <ProjectGuid>{85A7BCD8-64FE-4F4E-8168-6DB44546B9F2}</ProjectGuid>
     <Description>Xamarin.Forms.Effect ライブラリ</Description>
     <PackageId>Entap.Forms.Effects</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <Authors>Entap</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -19,7 +19,7 @@
     <Title>Entap.Forms.Effects</Title>
     <Summary>Xamarin.Forms.Effect ライブラリ</Summary>
     <PackageProjectUrl>https://github.com/entap/Entap.Forms.Effects</PackageProjectUrl>
-    <PackageReleaseNotes>Android:PaddingEffect追加</PackageReleaseNotes>
+    <PackageReleaseNotes>リリースモードで実機にデプロイ時にEffectが適用されない不具合対応</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
