@@ -16,7 +16,7 @@
     <Deterministic>True</Deterministic>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
     <AndroidUseAapt2>true</AndroidUseAapt2>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -56,16 +56,11 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.3" />
-    <PackageReference Include="NuGet.Build.Packaging">
-      <Version>0.2.5-dev.8</Version>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
     <PackageReference Include="Xamarin.Forms">
       <Version>4.5.0.356</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Essentials">
-      <Version>1.0.0</Version>
+      <Version>1.8.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -73,11 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
-    <Folder Include="Effects\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entap.Forms.Effects\Entap.Forms.Effects.csproj">
-      <Project>{C3FA3EDB-A529-4D2B-ABAF-07E1E54270BF}</Project>
+      <Project>{a814edfc-ef1d-467d-a6d2-98bf19c3023d}</Project>
       <Name>Entap.Forms.Effects</Name>
     </ProjectReference>
   </ItemGroup>
